@@ -14,7 +14,7 @@ h1 {
 ul {
     color: darkgrey;
     text-align: center;
-    border: 4px solid black;
+    border: 4px solid darkgrey;
 }
 li {
     list-style-position:inside;
