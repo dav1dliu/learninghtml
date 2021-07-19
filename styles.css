@@ -5,11 +5,21 @@ h1 {
     font-family:Arial;
     text-align: center;
 }
-.paragraph {
+p.paragraph {
     color: aquamarine;  
     font-size: 30px;
     text-align: center;
     letter-spacing: 3px;
+}
+p.paragraphtwo {
+    color: cadetblue;
+    font-size: 25px;
+    text-align: center;
+    border: 1px dashed cadetblue;
+}
+div{
+    background-color: lightcyan;
+    padding: 20px;
 }
 ul {
     color: darkgrey;
@@ -19,6 +29,10 @@ ul {
 li {
     list-style-position:inside;
     text-shadow: 2px 2px lightgray;
+}
+a[href*="o"]{
+    font-weight:bold;
+    text-transform: uppercase;
 }
 #header-image {
     width: 20rem;
