@@ -30,11 +30,15 @@ li {
     list-style-position:inside;
     text-shadow: 2px 2px lightgray;
 }
-a[href*="o"]{
+a[href]{
     font-weight:bold;
     text-transform: uppercase;
 }
 #header-image {
     width: 20rem;
+    height: auto;
+}
+#banner {
+    width: 100%;
     height: auto;
 }
