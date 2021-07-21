@@ -1,9 +1,20 @@
-h1 {
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding:0;
+    font-family: arial;
+}
+header {
     color: cadetblue;
-    font-size: 50px;
-    text-decoration: line-through;
+    background-color: darkseagreen;
+    font-size: 10px;
     font-family:Arial;
     text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 p.paragraph {
     color: aquamarine;  
@@ -17,10 +28,10 @@ p.paragraphtwo {
     text-align: center;
     border: 1px dashed cadetblue;
 }
-div{
+/*div{
     background-color: lightcyan;
     padding: 20px;
-}
+}*/
 ul {
     color: darkgrey;
     text-align: center;
@@ -34,11 +45,53 @@ a[href]{
     font-weight:bold;
     text-transform: uppercase;
 }
-#header-image {
+/*.header-image {
     width: 20rem;
     height: auto;
+}*/
+.banner {
+    position: relative;
 }
-#banner {
-    width: 100%;
-    height: auto;
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background-color: darkolivegreen;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.banner h2{
+    font-size:44px;
+}
+.banner h2 span{
+    font-size:1.3em;
+}
+nav{
+    background-color: darkseagreen;
+    padding: 20px;
+    position: sticky;
+    top: 148px;
+}
+nav ul{
+    white-space:  nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
 }
