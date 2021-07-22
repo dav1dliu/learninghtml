@@ -1,13 +1,12 @@
 body, ul, li, h1, h2, a{
     margin: 0;
     padding:0;
-    font-family: arial;
+    font-family: Arial;
 }
 header {
     color: cadetblue;
     background-color: darkseagreen;
-    font-size: 10px;
-    font-family:Arial;
+    font-size: 25px;
     text-align: center;
     padding: 20px;
     position: fixed;
@@ -31,12 +30,12 @@ p.paragraphtwo {
 /*div{
     background-color: lightcyan;
     padding: 20px;
-}*/
+}
 ul {
     color: darkgrey;
     text-align: center;
     border: 4px solid darkgrey;
-}
+}*/
 li {
     list-style-position:inside;
     text-shadow: 2px 2px lightgray;
@@ -60,7 +59,7 @@ a[href]{
     padding: 30px;
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 40%;
 }
 .banner h2{
     font-size:44px;
@@ -69,10 +68,10 @@ a[href]{
     font-size:1.3em;
 }
 nav{
-    background-color: darkseagreen;
+    background-color: rgb(127, 167, 127);
     padding: 20px;
     position: sticky;
-    top: 148px;
+    top: 95px;
 }
 nav ul{
     white-space:  nowrap;
@@ -83,6 +82,7 @@ nav li{
     width: 25%;
     display: inline-block;
     font-size: 24px;
+    text-align: center;
 }
 nav li a{
     text-decoration: none;
@@ -94,4 +94,42 @@ main {
     margin: 80px auto;
     padding: 0 40px;
     box-sizing: border-box;
+}
+article p{
+    line-height: 2em;
+    color: darkolivegreen
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+    background-color: rgb(154, 177, 154);
+    text-align: center;
+    padding: 60px 20px;
+    color: darkslategray;
+}
+.join h2{
+    font-size: 36px;
+}
+.form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size:24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+footer {
+    background-color: darkseagreen;
+    padding: 10px;
+    text-align: center;
 }
