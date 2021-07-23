@@ -133,3 +133,37 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+/* pseudo-classes */
+
+nav li a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+    position:relative;
+    top:-4px;
+}
+form input:forcus{
+    border: 4px dashed darkslategray;
+    outline: none;
+}
+form input:valid{
+    border: 4px solid lightgreen;
+}
+/*nav li:first-child{
+    border: 3px solid darkolivegreen;
+}*/ 
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section.join p::first-letter{
+    font-size: 1.5em;
+}
+p::selection{
+    background-color: darkolivegreen;
+    color: white;
+}
+p::after{
+    content: '...'
+}
